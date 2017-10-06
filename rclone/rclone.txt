@@ -1,0 +1,5 @@
+#upload on linux
+rclone copy /path/to/folder remote:/folder --size-only --stats 1s --verbose
+
+#mount on windows
+"rclone.exe" mount server:/path/to/folder Z: --no-modtime --read-only
