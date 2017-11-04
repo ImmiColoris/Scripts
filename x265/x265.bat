@@ -1,1 +1,2 @@
-"vspipe.exe" "script.vpy" - --y4m | "x265-10bit.exe" --input - --y4m --input-depth 10 --profile main10 --preset veryslow --tune vcb-s++ --crf 20 --output "out.mkv"
+"vspipe.exe" "script.vpy" - --y4m | "x265-10bit.exe" --input - --y4m --input-depth 10 --profile main10 --preset veryslow --tune vcb-s++ --crf 22 --output "out.mkv"
+"vspipe.exe" "script.vpy" - --y4m | "x265-10bit.exe" --input - --y4m --input-depth 10 --profile main10 --preset veryslow --tune vcb-s++ --crf 22 --vbv-maxrate 2560 --vbv-bufsize 2560 --output "out.mkv"
